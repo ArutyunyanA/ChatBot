@@ -1,0 +1,43 @@
+{
+    "intents": [{
+            "tag": "greetings",
+            "patterns": ["hello", "hey", "hi", "good morning", "good day", "good evening", "what's up?", "what's up"],
+            "responses": ["Hello", "Hey", "Greetings", "Greetings, how can I help you?", "Hello, what I can to do for you?"]
+        },
+        {
+            "tag": "good bye",
+            "patterns": ["bye", "good bye", "See you later", "Have a good day", "I'm living", "see ya", "See you soon"],
+            "responses": ["Good bye, have a good day!", "Bye, see you soon", "Good bye"]
+        },
+        {
+            "tag": "name",
+            "patterns": ["what is your name?", "how can I call you", "whats your name", "who are you", "can you tell me your name", "your name is?", "what, can I call you?"],
+            "responses": ["My name is Lisa, I'm chat-bot assistant", "My name is Lisa, nice to meet you", "I'm Lisa"]
+        },
+        {
+            "tag": "hours",
+            "patterns": ["when are you guys open?", "working time", "whats your working time?", "when you start to work"],
+            "responses": ["We open 24/7", "We hard work for you 24/7"]
+        },
+        {
+            "tag": "shop",
+            "patterns": ["what are you selling?", "what kind of goods do you have", "I would like to buy something", "can you offer something", "whats your offer?", "what can I buy"],
+            "responses": ["We web-develop company which target on bot-develop, you can check some examples if you move to service category"]
+        },
+        {
+            "tag": "price",
+            "patterns": ["how can I get the price-list", "how can I check your price?", "Can you give me a price", "What the cost of your goods", "How much is it", "price-list"],
+            "responses": ["Yes, of course, regarding price you need to contact with Artem."]
+        },
+        {
+            "tag": "function",
+            "patterns": ["What are you doing?", "what is your function?", "What do you can?", "your function?", "Show me your options", "Can you?"],
+            "responses": ["I'm artificial intelligence chatbot program, my main function is to be guide in this web site, and you can ask me about anything regarding our service."]
+        },
+        {
+            "tag": "math",
+            "patterns": ["How much will be 2 multiply 2", "How much will be 2 multiply 3", "How much will be 5 multiply 7", "Can you calculate", "How much will be 30 divide 7", "How much will be 64 divide 8", "How much will be 100 plus 356", "How much will be 1000 minus 345"],
+            "responses": ["Result is equal: {result}"]
+        }
+    ]
+}
